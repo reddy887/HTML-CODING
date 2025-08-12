@@ -1,4 +1,12 @@
 h1 {
     color:rgba(255, 0, 204, 0.219);
-    background-color: rgb(150, 165, 12);
+}
+img:hover{
+    color:blue;
+    width:70px;
+    height:70px;
+}
+h1:hover {
+    color: red;
+
 }
