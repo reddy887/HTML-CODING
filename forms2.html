@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1 align="center">forms2.0</h1>
-        <forms>
+        <forms action="submit">
             <label for="fname"> first name</label><br>
               <input type="text" id="fname"name="fname"><br>
                   <label for="lname">last name</label><br>
@@ -29,7 +29,38 @@
                     <option value="uk">uk</option>
                     <option value="russia"> russia</option>
                 </select>
-             </div>
+             </div><br>
+             <div>
+                <fieldset>
+                    <legend>
+                        personal information
+                    </legend>
+                    <label for="f1name"> firstname:</label>
+                    <input type="text" id="f1name" name="f1name" placeholder="enter first name">
+                    <br>
+                    <label for="l1name">
+                        last name:
+                    </label>
+                    <input type="text" id="l1name" name="l1name" placeholder="enter the last name"> 
+                    <br>
+                    <label for="email1"> 
+                        Email: 
+                    </label>
+                    <input type="text" id="email1" name="email1" placeholder="enter @email">
+                    <br>
+                    <label for="pass"> password:</label>
+                    <input type="password" id="pass" name="pass" placeholder="enter password">
+                    <br>
+                    <label for="state">state</label>
+                    <select id="state">
+                        <option value="andhra pradesh"> andhra pradesh</option>
+                        <option value="telangana">telangana</option>
+                        <option value="kerala">kerala</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="submit">
+                </fieldset>
+            </div>
         </forms>
     </body>
 </html>
