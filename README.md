@@ -1,3 +1,2 @@
 # HTML-CODING
-basics of the html
-html advanced 
+basics of the html 
