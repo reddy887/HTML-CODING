@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms2.0</title>
+        <meta content="UTF-8">
+        <link rel="icon" type="image/jpg" href="reddy.jpg">
+    </head>
+    <body>
+        <h1 align="center">forms2.0</h1>
+        <forms action="submit">
+            <label for="fname"> first name</label><br>
+              <input type="text" id="fname"name="fname"><br>
+                  <label for="lname">last name</label><br>
+          <input type="text" id="lname"name="lname"><br>
+          <label for="email">email adress</label><br>
+          <input type="text" id="email" name="email"><br>
+          <label for="password">password</label><br>
+          <input type="password" id="password" name="password"><br>
+          <label for="class">1st BIPC</label>
+          <input type="radio" id="class" name="class"><br>
+          <label for="msg"> messages</label>
+                <br>
+                <textarea id="msg" name="msg" rows="4" cols="30" placeholder="text here"></textarea>
+                <div>
+                <lable for="country"> country </lable>
+                <select id="country" name="country">
+                    <option value="india">india</option>
+                    <option value="usa">usa</option>
+                    <option value="uk">uk</option>
+                    <option value="russia"> russia</option>
+                </select>
+             </div><br>
+             <div>
+                <fieldset>
+                    <legend>
+                        personal information
+                    </legend>
+                    <label for="f1name"> firstname:</label>
+                    <input type="text" id="f1name" name="f1name" placeholder="enter first name">
+                    <br>
+                    <label for="l1name">
+                        last name:
+                    </label>
+                    <input type="text" id="l1name" name="l1name" placeholder="enter the last name"> 
+                    <br>
+                    <label for="email1"> 
+                        Email: 
+                    </label>
+                    <input type="text" id="email1" name="email1" placeholder="enter @email">
+                    <br>
+                    <label for="pass"> password:</label>
+                    <input type="password" id="pass" name="pass" placeholder="enter password">
+                    <br>
+                    <label for="state">state</label>
+                    <select id="state">
+                        <option value="andhra pradesh"> andhra pradesh</option>
+                        <option value="telangana">telangana</option>
+                        <option value="kerala">kerala</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="submit">
+                </fieldset>
+            </div>
+        </forms>
+    </body>
+</html>
